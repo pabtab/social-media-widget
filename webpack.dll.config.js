@@ -8,7 +8,6 @@ module.exports = {
     modules: [
       'react',
       'react-dom',
-      'react-router-dom'
     ]
   },
   output: {

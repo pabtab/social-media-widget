@@ -1,0 +1,11 @@
+.social-feed {
+  min-height: 90vh;
+  width: 100%;
+
+  & > .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
