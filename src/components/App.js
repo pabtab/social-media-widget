@@ -10,7 +10,7 @@ const App = () => {
       <SocialFeed
         feedUrl={URL}
         numPosts={10}
-        interval={1}
+        intervalSeg={10}
       />  
     </main>
   )
