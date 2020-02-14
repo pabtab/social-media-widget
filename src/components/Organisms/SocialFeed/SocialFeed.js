@@ -27,6 +27,13 @@ export default class SocialFeed extends Component {
     }, this.props.intervalSeg * 1000)
   }
 
+  componentDidUpdate() {
+    const { data } = this.state
+    if(data && data.length >= 40) {
+      clearInterval(this.intervalCall)
+    }
+  }
+
   componentWillUnmount() {
     clearInterval(this.intervalCall)
   }
